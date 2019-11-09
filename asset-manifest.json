@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-comments/static/css/main.58346c5a.chunk.css",
+    "main.js": "/react-comments/static/js/main.8d694fca.chunk.js",
+    "main.js.map": "/react-comments/static/js/main.8d694fca.chunk.js.map",
+    "runtime-main.js": "/react-comments/static/js/runtime-main.820901bf.js",
+    "runtime-main.js.map": "/react-comments/static/js/runtime-main.820901bf.js.map",
+    "static/js/2.bf3b5613.chunk.js": "/react-comments/static/js/2.bf3b5613.chunk.js",
+    "static/js/2.bf3b5613.chunk.js.map": "/react-comments/static/js/2.bf3b5613.chunk.js.map",
+    "index.html": "/react-comments/index.html",
+    "precache-manifest.ba6dd6e8d0d1f1ccd86630225215aaf3.js": "/react-comments/precache-manifest.ba6dd6e8d0d1f1ccd86630225215aaf3.js",
+    "service-worker.js": "/react-comments/service-worker.js",
+    "static/css/main.58346c5a.chunk.css.map": "/react-comments/static/css/main.58346c5a.chunk.css.map",
+    "static/media/logo.svg": "/react-comments/static/media/logo.25bf045c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.820901bf.js",
+    "static/js/2.bf3b5613.chunk.js",
+    "static/css/main.58346c5a.chunk.css",
+    "static/js/main.8d694fca.chunk.js"
+  ]
+}
