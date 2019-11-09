@@ -30,5 +30,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage" : "https://approachingapathy.github.io/react-comments/"
+  "homepage": "https://approachingapathy.github.io/react-comments/",
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  }
 }
