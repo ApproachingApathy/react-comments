@@ -17,7 +17,6 @@ class Comment {
     addReaction(reactionKey) {
         this.reactions[reactionKey] = this.reactions[reactionKey]++ ? this.reactions[reactionKey]: 1
     }
-
 }
 
 
@@ -31,7 +30,7 @@ export default class CommentBoard extends React.Component {
 
     handleChange(e) {
         let newObj = {...this.state.values} || {}
-        console.log(newObj)
+        // console.log(newObj)
         newObj[e.target.name] = e.target.value
         this.setState({values:newObj}, () => console.log(this.state.values))
     }
@@ -41,7 +40,7 @@ export default class CommentBoard extends React.Component {
         let comment = new Comment(this.state.values.commenter, this.state.values.text)
         let newArr = [...this.state.comments]
         newArr.push(comment)
-        this.setState({comments:newArr}, ()=> console.log(this.state.comments))
+        this.setState({comments:newArr})
 
     }
 
