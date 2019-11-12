@@ -1,0 +1,41 @@
+.post-form {
+
+	border: 1px solid white;
+	padding: 20px;
+	margin-bottom: 40px;
+}
+
+.post-entry {
+	display:flex;
+	align-items: center;
+	flex-direction: column;
+	width:100%;
+	max-width: 1000px;
+}
+
+@media screen and (min-width:1000px) {
+	.post-form {
+		min-width: 600px;
+	}
+
+	.post-entry {
+		max-width: 1000px;
+
+	}
+
+	.posts-section {
+		border: 1px solid white;
+		min-width: 600px;
+		padding: 20px;
+	}
+
+	.posts {
+		padding: 0;
+		list-style: none;
+	}
+
+	.post-item {
+		border: 1px solid white;
+		padding: 10px;
+	}
+}

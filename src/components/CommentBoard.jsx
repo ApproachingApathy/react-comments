@@ -1,4 +1,5 @@
 import React from 'react'
+import Post from './PostComponent/PostsComponent'
 import '../styles/commentboard.css'
 class Comment {
     constructor(author, text, reactionObj = {}) {
@@ -20,7 +21,7 @@ class Comment {
 }
 
 
-export default class CommentBoard extends React.Component {
+export default class CommentBoard extends Post {
     constructor(props) {
         super(props)
         this.state = {comments:[], values:{}}
@@ -32,7 +33,7 @@ export default class CommentBoard extends React.Component {
         let newObj = {...this.state.values} || {}
         // console.log(newObj)
         newObj[e.target.name] = e.target.value
-        this.setState({values:newObj}, () => console.log(this.state.values))
+        this.setState({values:newObj})
     }
 
     handleSubmit(e) {
@@ -85,7 +86,7 @@ export default class CommentBoard extends React.Component {
                                     </li>
                                     <li>
                                         <button onClick={e => this.handleReaction(index, 'awards')}>
-                                            {' 🏅| ' +  (comment.reactions.awards ? comment.reactions.awards: 0)}
+                                            {' 🏅 | ' +  (comment.reactions.awards ? comment.reactions.awards: 0)}
                                         </button>
                                     </li>
                                 </ul>
